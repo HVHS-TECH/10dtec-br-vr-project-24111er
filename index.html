@@ -8,15 +8,105 @@
   </head>
     <body>
     <a-scene>
-      <a-sky color="lightblue"></a-sky>
+      <a-sky color="deepskyblue"></a-sky>
       
        <!-- Put this inside the <a-scene> -->
+        <!--9.985 4.995 -7.009-->
+        <!--+0.985 +0.995 -7.009-->
       <a-entity 
-      ply-model="src:dog.ply"
-      position="0 1 -2"
+      ply-model="src:Park VR-6.ply"
+      position="9.985 4.995 -7.009"
       rotation="-90 0 90"
       ></a-entity>
-                   
+
+      <a-entity
+      ply-model="src:Park VR-0.ply"
+      rotation="-90 0 90"
+      position="-7.011 -2.221 -1.014"
+      animation="
+      property:position;
+      from:-7.011 -2.221 -1.014;
+      to:-7.011 -1.995 -1.014;
+      dur:750;
+      loop:true;
+      easing:linear;"
+      ></a-entity>
+      
+      <a-entity
+      ply-model="src:Park VR-7.ply"
+      rotation="-90 0 90"
+      position="-7.011 0.729 -1.014"
+      animation="
+      property:position;
+      from:-7.011 0.729 -1.014;
+      to:-7.011 0.995 -1.014;
+      dur:500;
+      loop:true;
+      easing:linear;"
+      ></a-entity>
+     
+      <a-entity
+      ply-model="src:Park VR-5.ply"
+      rotation="-90 0 90"
+      position="0.421 0.899 -0.964"
+      animation="
+      property:position;
+      from: 0.421 0.899 -0.964;
+      to: 0.421 0.649 -0.964;
+      loop:true;
+      dur:750;
+      easing:linear;"
+      ></a-entity>
+
+      <a-entity
+      ply-model="src:Park VR-1.ply"
+      rotation="-90 0 90"
+      position="-3.294 -2.743 -1.014"
+      animation="
+      property:position;
+      from:-3.294 -2.743 -1.014;
+      to:-3.3 -2.843 -1.014;
+      dur:750;
+      dir:alt;
+      loop:true;
+      easing:linear;"
+      ></a-entity>
+
+      <a-entity
+      ply-model="src:Park VR-2.ply"
+      rotation="-90 0 90"
+      position="2.25 -0.096 6.045"
+      animation="
+      property:position;
+      from: 3.225 0.995 -0.964;
+      to: 3.225 0.745 -0.964;
+      loop:true;
+      dur:1000;
+      easing:linear;"
+      
+      ></a-entity>
+
+      <a-entity
+      ply-model="src:Park VR-4.ply"
+      rotation="-90 0 90"
+      position="-3.294 1 -1.014"
+      animation="
+      property:position;
+      from:-3.294 1 -1.014;
+      to:-3.29 0.9 -1.014;
+      dur:500;
+      dir:alt;
+      loop:true;
+      easing:linear;"
+      ></a-entity>
+      
+
+      <a-entity
+      ply-model="src:Park VR-8.ply"
+      rotation="-90 0 90"
+      position="10 5 -7"
+      ></a-entity>
+
     </a-scene>
   </body>
 </html>
